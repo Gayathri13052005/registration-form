@@ -1,0 +1,73 @@
+header {
+    background-color: rgb(7, 7, 40);
+    color: white;
+    text-align: center;
+}
+
+header h1 {
+    color: white;
+}
+
+header nav a {
+    color: white;
+    padding: 5px;
+}
+
+form {
+    width: 300px;
+    padding: 20px;
+    border: 2px solid black;
+    text-align: left;
+    background-color: rgb(245, 242, 242);
+}
+
+label {
+    font-size: larger;
+}
+
+footer {
+    background-color: rgb(7, 7, 40);
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+button:hover {
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: rgb(12, 12, 77);
+    border-radius: 10px;
+    text-decoration-style: none;
+}
+
+/* For Mobile Screens */
+@media (max-width: 480px) {
+    header {
+        padding: 12px;
+    }
+
+    header h1 {
+        font-size: 1.3em;
+    }
+
+    header nav a {
+        font-size: 1.1em;
+        padding: 8px;
+    }
+
+    form {
+        width: 100%;
+        padding: 15px;
+    }
+
+    button {
+        font-size: 1em;
+        padding: 14px;
+    }
+
+    footer {
+        padding: 15px;
+    }
+}
